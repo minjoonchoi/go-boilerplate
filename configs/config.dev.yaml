@@ -1,0 +1,20 @@
+# 개발 환경 설정 파일
+app:
+  name: go-boilerplate
+  version: 1.0.0
+  port: 8080
+  env: development
+
+# 로깅 설정
+logging:
+  level: debug
+  format: text
+  output: stdout
+
+# 데이터베이스 설정
+database:
+  host: localhost
+  port: 5432
+  name: go_boilerplate_dev
+  user: postgres
+  password: postgres 
